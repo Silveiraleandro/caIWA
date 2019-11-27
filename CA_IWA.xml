@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="CA.IWA.xsl"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="CA_IWA.xsl"?>
 <NBA_LEAGUE>
 	<section name ="Eastern Conference">
 		<entree>
@@ -207,146 +207,146 @@
 		</entree>
 		
 	</section>
-	<section name ="playoffs">
+	<section name="playoffs">
 		<entree>
 			<year>2000</year>
 			<winner>Los Angeles Lakers</winner>
 			<coach>Phil Jackson</coach>
 			<mvp>Shaquille O'Neal</mvp>
-			<mvp team>Los Angeles Lakers</mvp>
+			<mvp_team>Los Angeles Lakers</mvp>
 		</entree>
 		<entree>
 			<year>2001</year>
 			<winner>Los Angeles Lakers</winner>
 			<coach>Phil Jackson</coach>
 			<mvp>Allen Iverson</mvp>
-			<mvp team>Philadelphia 76ers</mvp>
+			<mvp_team>Philadelphia 76ers</mvp>
 		</entree>
 		<entree>
 			<year>2002</year>
 			<winner>Los Angeles Lakers</winner>
 			<coach>Phil Jackson</coach>
 			<mvp>Tim Duncan</mvp>
-			<mvp team>San Antonio Spurs</mvp>
+			<mvp_team>San Antonio Spurs</mvp>
 		</entree>
 		<entree>
 			<year>2003</year>
 			<winner>San Antonio Spurs</winner>
 			<coach>Gregg Popovich</coach>
 			<mvp>Tim Duncan</mvp>
-			<mvp team>San Antonio Spurs</mvp>
+			<mvp_team>San Antonio Spurs</mvp>
 		</entree>
 		<entree>
 			<year>2004</year>
 			<winner>Detroit Pistons</winner>
 			<coach>Larry Brown</coach>
 			<mvp>Kevin Garnett</mvp>
-			<mvp team>Minnesota Timberwolves</mvp>
+			<mvp_team>Minnesota Timberwolves</mvp>
 		</entree>
 		<entree>
 			<year>2005</year>
 			<winner>San Antonio Spurs</winner>
 			<coach>Gregg Popovich</coach>
 			<mvp>Steve Nash</mvp>
-			<mvp team>Phoenix Suns</mvp>
+			<mvp_team>Phoenix Suns</mvp>
 		</entree>
 		<entree>
 			<year>2006</year>
 			<winner>Miami Heat</winner>
 			<coach>Pat Riley</coach>
 			<mvp>Steve Nash</mvp>
-			<mvp team>Phoenix Suns</mvp>
+			<mvp_team>Phoenix Suns</mvp>
 		</entree>
 		<entree>
 			<year>2007</year>
 			<winner>San Antonio Spurs</winner>
 			<coach>Gregg Popovich</coach>
 			<mvp>Dirk Nowitzki</mvp>
-			<mvp team>Dallas Marvericks</mvp>
+			<mvp_team>Dallas Marvericks</mvp>
 		</entree>
 		<entree>
 			<year>2008</year>
 			<winner>Boston Celtics</winner>
 			<coach>Doc Rivers</coach>
 			<mvp>Kobe Bryant</mvp>
-			<mvp team>Los Angeles Lakers</mvp>
+			<mvp_team>Los Angeles Lakers</mvp>
 		</entree>
 		<entree>
 			<year>2009</year>
 			<winner>Los Angeles Lakers</winner>
 			<coach>Phil Jackson</coach>
 			<mvp>LeBron James</mvp>
-			<mvp team>Cleveland Cavaliers</mvp>
+			<mvp_team>Cleveland Cavaliers</mvp>
 		</entree>
 		<entree>
 			<year>2010</year>
 			<winner>Los Angeles Lakers</winner>
 			<coach>Phil Jackson</coach>
 			<mvp>LeBron James</mvp>
-			<mvp team>Cleveland Cavaliers</mvp>
+			<mvp_team>Cleveland Cavaliers</mvp>
 		</entree>
 		<entree>
 			<year>2011</year>
 			<winner>Dallas Marvericks</winner>
 			<coach>Rick Carlisle</coach>
 			<mvp>Derrick Rose</mvp>
-			<mvp team>Chicago Bulls</mvp>
+			<mvp_team>Chicago Bulls</mvp>
 		</entree>
 		<entree>
 			<year>2012</year>
 			<winner>Miami Heat</winner>
 			<coach>Erik Spoelstra</coach>
 			<mvp>LeBron James</mvp>
-			<mvp team>Miami Heat</mvp>
+			<mvp_team>Miami Heat</mvp>
 		</entree>
 		<entree>
 			<year>2013</year>
 			<winner>Miami Heat</winner>
 			<coach>Erik Spoelstra</coach>
 			<mvp>LeBron James</mvp>
-			<mvp team>Miami Heat</mvp>
+			<mvp_team>Miami Heat</mvp>
 		</entree>
 		<entree>
 			<year>2014</year>
 			<winner>San Antonio Spurs</winner>
 			<coach>Gregg Popovich</coach>
 			<mvp>Kevin Durant</mvp>
-			<mvp team>Oklahoma City Thunder</mvp>
+			<mvp_team>Oklahoma City Thunder</mvp>
 		</entree>
 		<entree>
 			<year>2015</year>
 			<winner>Golden State Warriors</winner>
 			<coach>Steve Kerr</coach>
 			<mvp>Stephen Curry</mvp>
-			<mvp team>Golden State Warriors</mvp>
+			<mvp_team>Golden State Warriors</mvp>
 		</entree>
 		<entree>
 			<year>2016</year>
 			<winner>Cleveland Cavaliers</winner>
 			<coach>Tyronn Lue</coach>
 			<mvp>Stephen Curry</mvp>
-			<mvp team>Golden State Warriors</mvp>
+			<mvp_team>Golden State Warriors</mvp>
 		</entree>
 		<entree>
 			<year>2017</year>
 			<winner>Golden State Warriors</winner>
 			<coach>Steve Kerr</coach>
 			<mvp>Russel Westbrook</mvp>
-			<mvp team>Oklahoma City Thunder</mvp>
+			<mvp_team>Oklahoma City Thunder</mvp>
 		</entree>
 		<entree>
 			<year>2018</year>
 			<winner>Golden State Warriors</winner>
 			<coach>Steve Kerr</coach>
 			<mvp>James Harden</mvp>
-			<mvp team>Houston Rockets</mvp>
+			<mvp_team>Houston Rockets</mvp>
 		</entree>
 		<entree>
 			<year>2019</year>
 			<winner>Toronto Raptors</winner>
 			<coach>Nick Nurse</coach>
 			<mvp>Giannis Antetokounmpo</mvp>
-			<mvp team>Milwaukee Bucks</mvp>
+			<mvp_team>Milwaukee Bucks</mvp>
 		</entree>	
 	</section>
 </NBA>
