@@ -1,352 +1,68 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-stylesheet type="text/xsl" href="CA_IWA.xsl"?>
-<NBA_LEAGUE>
-	<section name ="Eastern Conference">
-		<entree>
-			<winner>Indiana Pacers</winner>
-			<year>2000</year>
-			<coach>Larry Bird</coach>
-		</entree>
-		<entree>
-			<winner>Philadelphia 76ers</winner>
-			<year>2001</year>
-			<coach>Larry Brown</coach>
-		</entree>
-		<entree>
-			<winner>New Jersey Nets</winner>
-			<year>2002</year>
-			<coach>Byron Scott</coach>
-		</entree>
-		<entree>
-			<winner>New Jersey Nets</winner>
-			<year>2003</year>
-			<coach>Byron Scott</coach>
-		</entree>
-		<entree playoff_schampion="true">
-			<winner>Detroit Pistons</winner>
-			<year>2004</year>
-			<coach>Larry Brown</coach>
-		</entree>
-		<entree>
-			<winner>Detroit Pistons</winner>
-			<year>2005</year>
-			<coach>Larry Brown</coach>
-		</entree>
-		<entree playoff_schampion="true">
-			<winner>Miami Heat</winner>
-			<year>2006</year>
-			<coach>Pat Riley</coach>
-		</entree>
-		<entree>
-			<winner>Cleveland Cavaliers</winner>
-			<year>2007</year>
-			<coach>Mike Brown</coach>
-		</entree>
-		<entree playoff_schampion="true">
-			<winner>Boston Celtics</winner>
-			<year>2008</year>
-			<coach>Doc Rivers</coach>
-		</entree>
-		<entree>
-			<winner>Orland Magic</winner>
-			<year>2009</year>
-			<coach>Stan Van Gundy</coach>
-		</entree>
-		<entree>
-			<winner>Boston Celtics</winner>
-			<year>2010</year>
-			<coach>Doc Rivers</coach>
-		</entree>
-		<entree>
-			<winner>Miami Heat</winner>
-			<year>2011</year>
-			<coach>Erik Spoelstra</coach>
-		</entree>
-		<entree playoff_schampion="true">
-			<winner>Miami Heat</winner>
-			<year>2012</year>
-			<coach>Erik Spoelstra</coach>
-		</entree>
-		<entree playoff_schampion="true">
-			<winner>Miami Heat</winner>
-			<year>2013</year>
-			<coach>Erik Spoelstra</coach>
-		</entree>
-		<entree>
-			<winner>Miami Heat</winner>
-			<year>2014</year>
-			<coach>Erik Spoelstra</coach>
-		</entree>
-		<entree playoff_schampion="true">
-			<winner>Cleveland Cavaliers</winner>
-			<year>2015</year>
-			<coach>DAvid Blatt</coach>
-		</entree>
-		<entree>
-			<winner>Cleveland Cavaliers</winner>
-			<year>2016</year>
-			<coach>Tyronn Lue</coach>
-		</entree>
-		<entree>
-			<winner>Cleveland Cavaliers</winner>
-			<year>2017</year>
-			<coach>Tyronn Lue</coach>
-		</entree>
-		<entree>
-			<winner>Cleveland Cavaliers</winner>
-			<year>2018</year>
-			<coach>Tyronn Lue</coach>
-		</entree>
-		<entree playoff_schampion="true">
-			<winner>Toronto Raptors</winner>
-			<year>2019</year>
-			<coach>Nick Nurse</coach>
-		</entree>
-		
-	</section>
-	<section name ="Western Conference">
-		<entree playoff_schampion="true">
-			<winner>Los Angeles Lakers</winner>
-			<year>2000</year>
-			<coach>Phil Jackson</coach>
-		</entree>
-		<entree playoff_schampion="true">
-			<winner>Los Angeles Lakers</winner>
-			<year>2001</year>
-			<coach>Phil Jackson</coach>
-		</entree>
-		<entree playoff_schampion="true">
-			<winner>Los Angeles Lakers</winner>
-			<year>2002</year>
-			<coach>Phil Jackson</coach>
-		</entree>
-		<entree playoff_schampion="true">
-			<winner>San Antonio Spurs</winner>
-			<year>2003</year>
-			<coach>Gregg Popovich</coach>
-		</entree>
-		<entree>
-			<winner>Los Angeles Lakers</winner>
-			<year>2004</year>
-			<coach>Phil Jackson</coach>
-		</entree>
-		<entree playoff_schampion="true">
-			<winner>San Antonio Spurs</winner>
-			<year>2005</year>
-			<coach>Gregg Popovich</coach>
-		</entree>
-		<entree>
-			<winner>Dallas Marvericks</winner>
-			<year>2006</year>
-			<coach>Avery Johnson</coach>
-		</entree>
-		<entree playoff_schampion="true">
-			<winner>San Antonio Spurs</winner>
-			<year>2007</year>
-			<coach>Gregg Popovich</coach>
-		</entree>
-		<entree>
-			<winner>Los Angeles Lakers</winner>
-			<year>2008</year>
-			<coach>Phil Jackson</coach>
-		</entree>
-		<entree playoff_schampion="true">
-			<winner>Los Angeles Lakers</winner>
-			<year>2009</year>
-			<coach>Phil Jackson</coach>
-		</entree>
-		<entree playoff_schampion="true">
-			<winner>Los Angeles Lakers</winner>
-			<year>2010</year>
-			<coach>Phil Jackson</coach>
-		</entree>
-		<entree playoff_schampion="true">
-			<winner>Dallas Marvericks</winner>
-			<year>2011</year>
-			<coach>Rick Carlisle</coach>
-		</entree>
-		<entree>
-			<winner>Oklahoma City Thunder</winner>
-			<year>2012</year>
-			<coach>Scott Brooks</coach>
-		</entree>
-		<entree>
-			<winner>San Antonio Spurs</winner>
-			<year>2013</year>
-			<coach>Gregg Popovich</coach>
-		</entree>
-		<entree playoff_schampion="true">
-			<winner>San Antonio Spurs</winner>
-			<year>2014</year>
-			<coach>Gregg Popovich</coach>
-		</entree>
-		<entree playoff_schampion="true">
-			<winner>Golden State Warriors</winner>
-			<year>2015</year>
-			<coach>Steve Kerr</coach>
-		</entree>
-		<entree>
-			<winner>Golden State Warriors</winner>
-			<year>2016</year>
-			<coach>Steve Kerr</coach>
-		</entree>
-		<entree playoff_schampion="true">
-			<winner>Golden State Warriors</winner>
-			<year>2017</year>
-			<coach>Steve Kerr</coach>
-		</entree>
-		<entree playoff_schampion="true">
-			<winner>Golden State Warriors</winner>
-			<year>2018</year>
-			<coach>Steve Kerr</coach>
-		</entree>
-		<entree>
-			<winner>Golden State Warriors</winner>
-			<year>2019</year>
-			<coach>Steve Kerr</coach>
-		</entree>
-		
-	</section>
-	<section name="playoffs">
-		<entree>
-			<year>2000</year>
-			<winner>Los Angeles Lakers</winner>
-			<coach>Phil Jackson</coach>
-			<mvp>Shaquille O'Neal</mvp>
-			<mvp_team>Los Angeles Lakers</mvp_team>
-		</entree>
-		<entree>
-			<year>2001</year>
-			<winner>Los Angeles Lakers</winner>
-			<coach>Phil Jackson</coach>
-			<mvp>Allen Iverson</mvp>
-			<mvp_team>Philadelphia 76ers</mvp_team>
-		</entree>
-		<entree>
-			<year>2002</year>
-			<winner>Los Angeles Lakers</winner>
-			<coach>Phil Jackson</coach>
-			<mvp>Tim Duncan</mvp>
-			<mvp_team>San Antonio Spurs</mvp_team>
-		</entree>
-		<entree>
-			<year>2003</year>
-			<winner>San Antonio Spurs</winner>
-			<coach>Gregg Popovich</coach>
-			<mvp>Tim Duncan</mvp>
-			<mvp_team>San Antonio Spurs</mvp_team>
-		</entree>
-		<entree>
-			<year>2004</year>
-			<winner>Detroit Pistons</winner>
-			<coach>Larry Brown</coach>
-			<mvp>Kevin Garnett</mvp>
-			<mvp_team>Minnesota Timberwolves</mvp_team>
-		</entree>
-		<entree>
-			<year>2005</year>
-			<winner>San Antonio Spurs</winner>
-			<coach>Gregg Popovich</coach>
-			<mvp>Steve Nash</mvp>
-			<mvp_team>Phoenix Suns</mvp_team>
-		</entree>
-		<entree>
-			<year>2006</year>
-			<winner>Miami Heat</winner>
-			<coach>Pat Riley</coach>
-			<mvp>Steve Nash</mvp>
-			<mvp_team>Phoenix Suns</mvp_team>
-		</entree>
-		<entree>
-			<year>2007</year>
-			<winner>San Antonio Spurs</winner>
-			<coach>Gregg Popovich</coach>
-			<mvp>Dirk Nowitzki</mvp>
-			<mvp_team>Dallas Marvericks</mvp_team>
-		</entree>
-		<entree>
-			<year>2008</year>
-			<winner>Boston Celtics</winner>
-			<coach>Doc Rivers</coach>
-			<mvp>Kobe Bryant</mvp>
-			<mvp_team>Los Angeles Lakers</mvp_team>
-		</entree>
-		<entree>
-			<year>2009</year>
-			<winner>Los Angeles Lakers</winner>
-			<coach>Phil Jackson</coach>
-			<mvp>LeBron James</mvp>
-			<mvp_team>Cleveland Cavaliers</mvp_team>
-		</entree>
-		<entree>
-			<year>2010</year>
-			<winner>Los Angeles Lakers</winner>
-			<coach>Phil Jackson</coach>
-			<mvp>LeBron James</mvp>
-			<mvp_team>Cleveland Cavaliers</mvp_team>
-		</entree>
-		<entree>
-			<year>2011</year>
-			<winner>Dallas Marvericks</winner>
-			<coach>Rick Carlisle</coach>
-			<mvp>Derrick Rose</mvp>
-			<mvp_team>Chicago Bulls</mvp_team>
-		</entree>
-		<entree>
-			<year>2012</year>
-			<winner>Miami Heat</winner>
-			<coach>Erik Spoelstra</coach>
-			<mvp>LeBron James</mvp>
-			<mvp_team>Miami Heat</mvp_team>
-		</entree>
-		<entree>
-			<year>2013</year>
-			<winner>Miami Heat</winner>
-			<coach>Erik Spoelstra</coach>
-			<mvp>LeBron James</mvp>
-			<mvp_team>Miami Heat</mvp_team>
-		</entree>
-		<entree>
-			<year>2014</year>
-			<winner>San Antonio Spurs</winner>
-			<coach>Gregg Popovich</coach>
-			<mvp>Kevin Durant</mvp>
-			<mvp_team>Oklahoma City Thunder</mvp_team>
-		</entree>
-		<entree>
-			<year>2015</year>
-			<winner>Golden State Warriors</winner>
-			<coach>Steve Kerr</coach>
-			<mvp>Stephen Curry</mvp>
-			<mvp_team>Golden State Warriors</mvp_team>
-		</entree>
-		<entree>
-			<year>2016</year>
-			<winner>Cleveland Cavaliers</winner>
-			<coach>Tyronn Lue</coach>
-			<mvp>Stephen Curry</mvp>
-			<mvp_team>Golden State Warriors</mvp_team>
-		</entree>
-		<entree>
-			<year>2017</year>
-			<winner>Golden State Warriors</winner>
-			<coach>Steve Kerr</coach>
-			<mvp>Russel Westbrook</mvp>
-			<mvp_team>Oklahoma City Thunder</mvp_team>
-		</entree>
-		<entree>
-			<year>2018</year>
-			<winner>Golden State Warriors</winner>
-			<coach>Steve Kerr</coach>
-			<mvp>James Harden</mvp>
-			<mvp_team>Houston Rockets</mvp_team>
-		</entree>
-		<entree>
-			<year>2019</year>
-			<winner>Toronto Raptors</winner>
-			<coach>Nick Nurse</coach>
-			<mvp>Giannis Antetokounmpo</mvp>
-			<mvp_team>Milwaukee Bucks</mvp_team>
-		</entree>	
-	</section>
-</NBA_LEAGUE>
+<?xml-stylesheet type="text/xsl" href="PaddysCafe.xsl"?>
+<cafemenu>
+    <section name="Side Dishes">
+        <entree vegetarian="true">
+            <item>Potato Salad</item>
+            <price>4.95</price>
+        </entree>
+        <entree>
+            <item>Paddy's French Fries</item>
+            <price>7.50</price>
+        </entree>
+        <entree>
+            <item>Huevos Rancheros</item>
+            <price>8.50</price>
+        </entree>
+    </section>
+    <section name="Breakfast">
+        <entree>
+            <item>Two Eggs, any style</item>
+            <price>4.99</price>
+        </entree>
+        <entree>
+            <item>Paddy's Famous Peppers and Eggs</item>
+            <price>8.29</price>
+        </entree>
+        <entree vegetarian="true">
+            <item>Bowl of fruit</item>
+            <price>6.99</price>
+        </entree>
+        <entree vegetarian="true">
+            <item>French toast</item>
+            <price>5.25</price>
+        </entree>
+        <entree>
+            <item>Croissant</item>
+            <price>3.99</price>
+        </entree>
+    </section>
+    <section name="Lunch">
+        <entree>
+            <item>Grilled Chicken Sandwich</item>
+            <price>7.99</price>
+        </entree>
+        <entree>
+            <item>Tuna Melt</item>
+            <price>6.99</price>
+        </entree>
+        <entree vegetarian="true">
+            <item>Pasta Salad</item>
+            <price>7.39</price>
+        </entree>
+    </section>
+    <section name="Dinner">
+        <entree>
+            <item>Ribeye Steak</item>
+            <price>19.99</price>
+        </entree>
+        <entree>
+            <item>Chilean Sea Bass</item>
+            <price>12.99</price>
+        </entree>
+        <entree vegetarian="true">
+            <item>Linguini with Grilled Porcini Mushroom</item>
+            <price>9.79</price>
+        </entree>
+    </section>
+</cafemenu>
