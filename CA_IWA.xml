@@ -3,65 +3,65 @@
 <NBA>
     <section position="Shooting Guard">
         <entree mvp="true">
-            <item>Carmelo Anthonny</item>
+            <player>Carmelo Anthonny</player>
             <price>100.000.00</price>
         </entree>
         <entree>
-            <item>LeBron James</item>
+            <player>LeBron James</player>
             <price>150.000.00</price>
         </entree>
         <entree>
-            <item>Dwyane Wade</item>
+            <player>Dwyane Wade</player>
             <price>90.000.00</price>
         </entree>
     </section>
     <section position="Point Guards">
         <entree>
-            <item>Kyrie Irving</item>
+            <player>Kyrie Irving</player>
             <price>60.000.00</price>
         </entree>
         <entree>
-            <item>Rajon Rondo</item>
+            <player>Rajon Rondo</player>
             <price>85.000.00</price>
         </entree>
         <entree mvp="true">
-            <item>Stephen Curry</item>
+            <player>Stephen Curry</player>
             <price>80.000.00</price>
         </entree>
         <entree mvp="true">
-            <item>RussellWestbrook</item>
+            <player>RussellWestbrook</player>
             <price>100.000.00</price>
         </entree>
         <entree>
-            <item>Tyle Hero</item>
+            <player>Tyle Hero</player>
             <price>75.000.00</price>
         </entree>
     </section>
     <section position="Power Forward">
         <entree>
-            <item>Anthony Davis</item>
+            <player>Anthony Davis</player>
             <price>120.000.00</price>
         </entree>
         <entree>
-            <item>Tim Duncan</item>
+            <player>Tim Duncan</player>
             <price>110.000.00</price>
         </entree>
         <entree mvp="true">
-            <item>Kevin Garnett</item>
+            <player>Kevin Garnett</player>
             <price>115.000.00</price>
         </entree>
     </section>
     <section position="Small Forward">
         <entree>
-            <item>Jimmy Butler</item>
+            <player>Jimmy Butler</player>
             <price>110.000.00</price>
         </entree>
         <entree>
-            <item>Mario Chalmers</item>
+            <player>Mario Chalmers</player>
             <price>125.000.00</price>
         </entree>
         <entree mvp="true">
-            <item>Kevin Durant</item>
+            <player>Kevin Durant</player>
             <price>110.000.00</price>
         </entree>
     </section>
