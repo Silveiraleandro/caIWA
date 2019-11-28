@@ -4,18 +4,19 @@
                 <table id="menuTable" class="indent table-hover">
                     <thead>
                         <tr>
-                            <th colspan="3">NBA</th>
+                            <th colspan="4">NBA</th>
                         </tr>
                         <tr>
                             <th>Player Position</th>
                             <th>Player Name</th>
                             <th>Player Value</th>
+                            <th>Current Team</th>
                         </tr>
                     </thead>
                     <tbody>
                         <xsl:for-each select="/NBA/section">
                             <tr>
-                                <td colspan="3">
+                                <td colspan="4">
                                     <xsl:value-of select="@position" />
                                 </td>
                             </tr>
@@ -32,6 +33,9 @@
                                     </td>
                                     <td align="right">
                                         <xsl:value-of select="value" />
+                                    </td>
+                                    <td align="right">
+                                        <xsl:value-of select="team" />
                                     </td>
                                 </tr>
                             </xsl:for-each>
