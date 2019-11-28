@@ -28,7 +28,7 @@
 						
 						<tr>
 							<xsl:attribute name="playoff_schampion">
-				<xsl:value-of select=@boolean(.@vegetarin)" />
+				<xsl:value-of select="@boolean(.@playoff_schampion)" />
 				</xsl:attribute>
 				<td align="center">
 					<input name="winner0" type="checkbox" />
