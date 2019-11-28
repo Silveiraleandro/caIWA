@@ -16,7 +16,7 @@
                         <xsl:for-each select="/NBA/section">
                             <tr>
                                 <td colspan="3">
-                                    <xsl:value-of select="@name" />
+                                    <xsl:value-of select="@position" />
                                 </td>
                             </tr>
                             <xsl:for-each select="entree">
