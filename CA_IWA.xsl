@@ -27,7 +27,7 @@
 																					<xsl:for-each select="entree" >
 						
 						<tr>
-							</xsl:attribute name="playoff_schampion">
+							<xsl:attribute name="playoff_schampion">
 				<xsl:value-of select=@boolean(.@vegetarin)" />
 				</xsl:attribute>
 				<td align="center">
