@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-stylesheet type="text/xsl" href="PaddysCafe.xsl"?>
-<cafemenu>
+<?xml-stylesheet type="text/xsl" href="CA_IWA.xsl"?>
+<NBA>
     <section name="Shooting Guard">
         <entree mvp="true">
             <item>Carmelo Anthonny</item>
@@ -65,4 +65,4 @@
             <price>110.000.00</price>
         </entree>
     </section>
-</cafemenu>
+</NBA>
