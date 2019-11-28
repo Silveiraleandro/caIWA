@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet type="text/xsl" href="CA_IWA.xsl"?>
 <NBA>
-    <section name="Shooting Guard">
+    <section position="Shooting Guard">
         <entree mvp="true">
             <item>Carmelo Anthonny</item>
             <price>100.000.00</price>
@@ -15,7 +15,7 @@
             <price>90.000.00</price>
         </entree>
     </section>
-    <section name="Point Guards">
+    <section position="Point Guards">
         <entree>
             <item>Kyrie Irving</item>
             <price>60.000.00</price>
@@ -37,7 +37,7 @@
             <price>75.000.00</price>
         </entree>
     </section>
-    <section name="Power Forward">
+    <section position="Power Forward">
         <entree>
             <item>Anthony Davis</item>
             <price>120.000.00</price>
@@ -51,7 +51,7 @@
             <price>115.000.00</price>
         </entree>
     </section>
-    <section name="Small Forward">
+    <section position="Small Forward">
         <entree>
             <item>Jimmy Butler</item>
             <price>110.000.00</price>
