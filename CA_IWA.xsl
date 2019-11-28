@@ -7,9 +7,9 @@
                             <th colspan="3">NBA</th>
                         </tr>
                         <tr>
-                            <th>Player Position</th>
-                            <th>Player Name</th>
-                            <th>Player Value</th>
+                            <th>Select</th>
+                            <th>Item</th>
+                            <th>Price</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -25,13 +25,13 @@
                                         <xsl:value-of select="boolean(./@mvp)" />
                                     </xsl:attribute>
                                     <td align="center">
-                                        <input name="player0" type="checkbox" />
+                                        <input name="item0" type="checkbox" />
                                     </td>
                                     <td>
-                                        <xsl:value-of select="player" />
+                                        <xsl:value-of select="item" />
                                     </td>
                                     <td align="right">
-                                        <xsl:value-of select="value" />
+                                        <xsl:value-of select="price" />
                                     </td>
                                 </tr>
                             </xsl:for-each>
