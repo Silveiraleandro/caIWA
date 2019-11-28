@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet type="text/xsl" href="PaddysCafe.xsl"?>
 <cafemenu>
-    <section name="Side Dishes">
-        <entree vegetarian="true">
-            <item>Potato Salad</item>
-            <price>4.95</price>
+    <section name="Shooting Guard">
+        <entree mvp="true">
+            <item>Carmelo Anthonny</item>
+            <price>100.000.00</price>
         </entree>
         <entree>
-            <item>Paddy's French Fries</item>
-            <price>7.50</price>
+            <item>LeBron James</item>
+            <price>150.000.00</price>
         </entree>
         <entree>
-            <item>Huevos Rancheros</item>
-            <price>8.50</price>
+            <item>Dwyane Wade</item>
+            <price>90.000.00</price>
         </entree>
     </section>
-    <section name="Breakfast">
+    <section name="Point Guards">
         <entree>
-            <item>Two Eggs, any style</item>
-            <price>4.99</price>
-        </entree>
-        <entree>
-            <item>Paddy's Famous Peppers and Eggs</item>
-            <price>8.29</price>
-        </entree>
-        <entree vegetarian="true">
-            <item>Bowl of fruit</item>
-            <price>6.99</price>
-        </entree>
-        <entree vegetarian="true">
-            <item>French toast</item>
-            <price>5.25</price>
+            <item>Kyrie Irving</item>
+            <price>60.000.00</price>
         </entree>
         <entree>
-            <item>Croissant</item>
-            <price>3.99</price>
+            <item>Rajon Rondo</item>
+            <price>85.000.00</price>
+        </entree>
+        <entree mvp="true">
+            <item>Stephen Curry</item>
+            <price>80.000.00</price>
+        </entree>
+        <entree mvp="true">
+            <item>RussellWestbrook</item>
+            <price>100.000.00</price>
+        </entree>
+        <entree>
+            <item>Tyle Hero</item>
+            <price>75.000.00</price>
         </entree>
     </section>
-    <section name="Lunch">
+    <section name="Power Forward">
         <entree>
-            <item>Grilled Chicken Sandwich</item>
-            <price>7.99</price>
+            <item>Anthony Davis</item>
+            <price>120.000.00</price>
         </entree>
         <entree>
-            <item>Tuna Melt</item>
-            <price>6.99</price>
+            <item>Tim Duncan</item>
+            <price>110.000.00</price>
         </entree>
-        <entree vegetarian="true">
-            <item>Pasta Salad</item>
-            <price>7.39</price>
+        <entree mvp="true">
+            <item>Kevin Garnett</item>
+            <price>115.000.00</price>
         </entree>
     </section>
-    <section name="Dinner">
+    <section name="Small Forward">
         <entree>
-            <item>Ribeye Steak</item>
-            <price>19.99</price>
+            <item>Jimmy Butler</item>
+            <price>110.000.00</price>
         </entree>
         <entree>
-            <item>Chilean Sea Bass</item>
-            <price>12.99</price>
+            <item>Mario Chalmers</item>
+            <price>125.000.00</price>
         </entree>
-        <entree vegetarian="true">
-            <item>Linguini with Grilled Porcini Mushroom</item>
-            <price>9.79</price>
+        <entree mvp="true">
+            <item>Kevin Durant</item>
+            <price>110.000.00</price>
         </entree>
     </section>
 </cafemenu>
