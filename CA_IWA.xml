@@ -4,65 +4,65 @@
     <section position="Shooting Guard">
         <entree mvp="true">
             <player>Carmelo Anthonny</player>
-            <price>100.000.00</price>
+            <value>100.000.00</value>
         </entree>
         <entree>
             <player>LeBron James</player>
-            <price>150.000.00</price>
+            <value>150.000.00</value>
         </entree>
         <entree>
             <player>Dwyane Wade</player>
-            <price>90.000.00</price>
+            <value>90.000.00</value>
         </entree>
     </section>
     <section position="Point Guards">
         <entree>
             <player>Kyrie Irving</player>
-            <price>60.000.00</price>
+            <value>60.000.00</value>
         </entree>
         <entree>
             <player>Rajon Rondo</player>
-            <price>85.000.00</price>
+            <value>85.000.00</value>
         </entree>
         <entree mvp="true">
             <player>Stephen Curry</player>
-            <price>80.000.00</price>
+            <value>80.000.00</value>
         </entree>
         <entree mvp="true">
             <player>RussellWestbrook</player>
-            <price>100.000.00</price>
+            <value>100.000.00</value>
         </entree>
         <entree>
             <player>Tyle Hero</player>
-            <price>75.000.00</price>
+            <value>75.000.00</value>
         </entree>
     </section>
     <section position="Power Forward">
         <entree>
             <player>Anthony Davis</player>
-            <price>120.000.00</price>
+            <value>120.000.00</value>
         </entree>
         <entree>
             <player>Tim Duncan</player>
-            <price>110.000.00</price>
+            <value>110.000.00</value>
         </entree>
         <entree mvp="true">
             <player>Kevin Garnett</player>
-            <price>115.000.00</price>
+            <value>115.000.00</value>
         </entree>
     </section>
     <section position="Small Forward">
         <entree>
             <player>Jimmy Butler</player>
-            <price>110.000.00</price>
+            <value>110.000.00</value>
         </entree>
         <entree>
             <player>Mario Chalmers</player>
-            <price>125.000.00</price>
+            <value>125.000.00</value>
         </entree>
         <entree mvp="true">
             <player>Kevin Durant</player>
-            <price>110.000.00</price>
+            <value>110.000.00</value>
         </entree>
     </section>
 </NBA>
