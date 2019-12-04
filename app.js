@@ -82,12 +82,12 @@ router.post('/post/delete', function(req, res) {
   // Function to read in a JSON file, add to it & convert to XML
   function deleteJSON(obj) {
     // Function to read in XML file, convert it to JSON, delete the required object and write back to XML file
-    xmlFileToJs('NBA.xml', function(err, result) {
+    xmlFileToJs('CA_IWA.xml', function(err, result) {
       if (err) throw (err);
       //This is where we delete the object based on the position of the section and position of the entree, as being passed on from index.html
       delete result.NBA.section[obj.section].entree[obj.entree];
       //This is where we convert from JSON and write back our XML file
-      jsToXmlFile('NBA.xml', result, function(err) {
+      jsToXmlFile('CA_IWA.xml', result, function(err) {
         if (err) console.log(err);
       })
     })
