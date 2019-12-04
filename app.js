@@ -1,3 +1,4 @@
+//All modules needed to perform the functionality of the program
 var http = require('http'),
     path = require('path'),
     express = require('express'),
