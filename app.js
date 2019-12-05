@@ -4,7 +4,10 @@ var http = require('http'),//module brings functionalities for HTTP
     fs = require('fs'),//module brings read and write to files functionalities
     xmlParse = require('xslt-processor').xmlParse,//module to work with XML
     xsltProcess = require('xslt-processor').xsltProcess;//for XSL transformations
-    xml2js = require('xml2js');//converts XML to JSON and the reverse way
+    xml2js = require('xml2js'),//converts XML to JSON and the reverse way
+    //autosanitizer extracted from  https://medium.com/@antonioramirezofficial/automatic-and-painless-sanitization-for-all-express-routes-ae24cbe653c8
+        
+    expAutoSan = require('express-autosanitizer');
 
 var router = express();
 var server = http.createServer(router);
@@ -12,6 +15,7 @@ var server = http.createServer(router);
 router.use(express.static(path.resolve(__dirname, 'views')));
 router.use(express.urlencoded({extended: true}));
 router.use(express.json());
+router.use(expAutoSan.allUnsafe);
 
 // Function to read in XML file and convert it to JSON
 function xmlFileToJs(filename, cb) {
