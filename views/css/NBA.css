@@ -3,7 +3,10 @@ html {
   min-height: 100%;
 }
 body {
-  /* Margin bottom by footer height */
+    background-image: url("https://wallpaperaccess.com/full/1305370.jpg");
+        background-repeat:no-repeat;
+  background-attachment: fixed;
+ /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
 .footer {
