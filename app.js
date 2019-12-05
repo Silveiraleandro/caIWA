@@ -65,7 +65,7 @@ router.post('/post/json', function(req, res) {
     // Function to read in XML file, convert it to JSON, add a new object and write back to XML file
     xmlFileToJs('CA_IWA.xml', function(err, result) {
       if (err) throw (err);
-      result.NBA.section[obj.sec_n].entree.push({'player': obj.player, 'value': obj.value});
+      result.NBA.section[obj.sec_n].entree.push({'player': obj.player, 'value': obj.value, 'team': obj.team});
       //console.log(result);
       jsToXmlFile('CA_IWA.xml', result, function(err) {
         if (err) console.log(err);
