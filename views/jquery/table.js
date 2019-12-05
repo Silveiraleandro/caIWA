@@ -53,3 +53,22 @@ $(document).ready(function ()
 {
 	draw_table();
 });
+
+function validateForm() {
+  var player = document.forms["myForm"]["player"].value;
+  var value = document.forms["myForm"]["value"].value;
+  var team = document.forms["myForm"]["team"].value;
+
+    if (player == "") {
+    	alert("Player must be filled out");
+	    return false;
+   	 } else  if  (value == ""){
+	alert("Valeu must be filled out");
+            return false;
+	 } else if (team =="" ){
+	alert("Team must be choosen!");    
+    return false;
+  }
+   
+
+}
