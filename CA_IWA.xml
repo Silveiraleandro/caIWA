@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!--Lecture Mikhail Timofeev provided the XML, XSL, CSS and JavaScript code structure that I used in this project.
-My part was to analyse and understand his code in order to be able to apply the necessary alterations to make it a new application that performs different functions. 
+<!--Lecture Mikhail Timofeev provided the XML, XSL, CSS and JavaScript code structure that I used in this project.       My part was to analyse and understand his code in order to be able to apply the necessary alterations to make it a new application that performs different functions.--> 
 <NBA>
   <section position="Shooting Guard">
     <entree mvp="true">
