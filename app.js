@@ -5,16 +5,17 @@ var http = require('http'),//module brings functionalities for HTTP
     xmlParse = require('xslt-processor').xmlParse,//module to work with XML
     xsltProcess = require('xslt-processor').xsltProcess;//for XSL transformations
     xml2js = require('xml2js'),//converts XML to JSON and the reverse way
-    //autosanitizer extracted from  https://medium.com/@antonioramirezofficial/automatic-and-painless-sanitization-for-all-express-routes-ae24cbe653c8
-        
+//(autosanitizer extracted from) Medium, by Antonio Ramirez 22 April, accessed 05 November 2019 <https://medium.com/@antonioramirezofficial/automatic-and-painless-sanitization-for-all-express-routes-ae24cbe653c8>                            
     expAutoSan = require('express-autosanitizer');
-
+//declaring variable router to hold express 
 var router = express();
+//creating a server
 var server = http.createServer(router);
 
 router.use(express.static(path.resolve(__dirname, 'views')));
 router.use(express.urlencoded({extended: true}));
 router.use(express.json());
+//autosanitizer source is mentioned above
 router.use(expAutoSan.allUnsafe);
 
 // Function to read in XML file and convert it to JSON
@@ -43,15 +44,15 @@ router.get('/', function(req, res){
 router.get('/get/html', function(req, res) {
 
     res.writeHead(200, {'Content-Type': 'text/html'});
-
+    //reading the xml files
     var xml = fs.readFileSync('CA_IWA.xml', 'utf8');
     var xsl = fs.readFileSync('CA_IWA.xsl', 'utf8');
-    //console.log(xml);
+    //parsing xml
     var doc = xmlParse(xml);
     var stylesheet = xmlParse(xsl);
-
+    //performing transformation
     var result = xsltProcess(doc, stylesheet);
-
+    //returning it in String format
     res.end(result.toString());
 
 
@@ -59,15 +60,15 @@ router.get('/get/html', function(req, res) {
 // POST request to add to JSON & XML files
 router.post('/post/json', function(req, res) {
 
-  // Function to read in a JSON file, add to it & convert to XML
+  // reading in a JSON file and adding to it & convert to XML
   function appendJSON(obj) {
     //console.log(obj);
-    // Function to read in XML file, convert it to JSON, add a new object and write back to XML file
+    // reading in XML file, converting it to JSON, adding a new object and writing back to XML file
     xmlFileToJs('CA_IWA.xml', function(err, result) {
       if (err) throw (err);
       result.NBA.section[obj.sec_n].entree.push({'player': obj.player, 'value': obj.value, 'team': obj.team});
-      //console.log(result);
-      jsToXmlFile('CA_IWA.xml', result, function(err) {
+        //from JSON back to xml
+        jsToXmlFile('CA_IWA.xml', result, function(err) {
         if (err) console.log(err);
       })
     })
@@ -76,7 +77,7 @@ router.post('/post/json', function(req, res) {
   // Call appendJSON function and pass in body of the current POST request
   appendJSON(req.body);
 
-  // Re-direct the browser back to the page, where the POST request came from
+  // browser goes back to the page of the POST
   res.redirect('back');
 
 });
@@ -85,19 +86,19 @@ router.post('/post/delete', function(req, res) {
 
   // Function to read in a JSON file, add to it & convert to XML
   function deleteJSON(obj) {
-    // Function to read in XML file, convert it to JSON, delete the required object and write back to XML file
+    // reading in XML file, converting it to JSON, deleting the required object and writing back to XML file
     xmlFileToJs('CA_IWA.xml', function(err, result) {
       if (err) throw (err);
-      //This is where we delete the object based on the position of the section and position of the entree, as being passed on from index.html
+      //deleting an object based on the position of the section and position of the entree
       delete result.NBA.section[obj.section].entree[obj.entree];
-      //This is where we convert from JSON and write back our XML file
+      //from JSON back our XML file
       jsToXmlFile('CA_IWA.xml', result, function(err) {
         if (err) console.log(err);
       })
     })
   }
 
-  // Call appendJSON function and pass in body of the current POST request
+  // body of the current POST request
   deleteJSON(req.body);
 
 });
