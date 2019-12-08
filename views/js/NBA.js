@@ -1,4 +1,5 @@
 function mvpDisplay(idTable, bShowMvp) {
+    //<Mikhail Timofeev> (<16 September – 02 December>) <Web applications/XML, XSL, CSS, JavaScript>Code provider can be found at https://moodle.cct.ie/ .
     // if bShowMvp is true, then we're highlighting mvp
     //	players, otherwise we're unhighlighting them.
     var i = 0;
