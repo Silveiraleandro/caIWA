@@ -5,6 +5,7 @@ var http = require('http'),//module brings functionalities for HTTP
     xmlParse = require('xslt-processor').xmlParse,//module to work with XML
     xsltProcess = require('xslt-processor').xsltProcess;//for XSL transformations
     xml2js = require('xml2js'),//converts XML to JSON and the reverse way
+//<Mikhail Timofeev> (<16 September – 02 December>) <Web applications/XML, XSL, CSS, JavaScript>Code provider can be found at https://moodle.cct.ie/ .
 //(autosanitizer extracted from) Medium, by Antonio Ramirez 22 April, accessed 05 November 2019 <https://medium.com/@antonioramirezofficial/automatic-and-painless-sanitization-for-all-express-routes-ae24cbe653c8>                            
     expAutoSan = require('express-autosanitizer');
 //declaring variable router to hold express 
