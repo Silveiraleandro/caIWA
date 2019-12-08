@@ -10,10 +10,19 @@
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/NBA.css" rel="stylesheet">
+   <script src="js/NBA.js"></script>
+    <script>
+        window.addEventListener("load", function() {
+            document.querySelector("#showMVP").addEventListener("click", function() {
+                mvpDisplay('menuTable', this.checked);
+            });
+        });
+    </script>
 </head>
 
 <body>
   <!-- Navigation -->
+  
    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container"> <a class="navbar-brand" href="#">NBA</a>
       	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">	<span class="navbar-toggler-icon"></span>
@@ -35,8 +44,8 @@
       <div class="col-lg-12 text-center">
          <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/miami-heat-logo-art-william-ng.jpg" alt="HTML5 Icon" style="width:40%;height:128px;">
 
-        <h1 class="mt-5">Wellcome to the NBA you make!</h1>
-        <p class="lead">Here you hire the best NBA players and build up your own squad</p>
+        <h1 class="mt-5">NBA the best players are here</h1>
+        <p class="lead">Hire the best NBA players and build up your own squad</p>
       </div>
       <div id="results" class="col-lg-9"></div>
       <div class="col-lg-3 text-center order-2">
@@ -62,6 +71,19 @@
             </form>
           <button id="delete" class="btn btn-block btn-danger">Delete</button>
           <p class="text-muted">To delete an entree, click the required row first</p>
+              <form>
+                    <div class="input-group">
+                    
+                        <input type="text" class="form-control" aria-label="Total" name="txtBillAmt">
+                         <div class="input-group-append">
+                            <div class="input-group-text">
+                                <input type="checkbox" id="showMvp" aria-label="Checkbox for following text input">
+                            </div>
+                        </div>
+                        <input class="btn btn-block btn-secondary" type="button" name="btnCalcBill" value="MVP Stars" id="showMvp">
+                    </div>
+                    
+                </form>
         </div>
     </div>
   </div>
