@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+    
+    <--!xsl code style provided by <Mikhail Timofeev> (<16 September – 02 December>) <Web applications/XML, XSL, CSS, JavaScript>Code provider can be found at https://moodle.cct.ie/ .-->
+    
     <xsl:template match="/">
                 <table id="menuTable" class="indent table-hover">
                     <thead>
