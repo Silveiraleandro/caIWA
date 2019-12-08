@@ -1,3 +1,4 @@
+/*<Mikhail Timofeev> (<16 September – 02 December>) <Web applications/XML,jquery, XSL, CSS, JavaScript>Code provider can be found at https://moodle.cct.ie/ .*/
 function draw_table()
 {
 	$("#results").empty();
