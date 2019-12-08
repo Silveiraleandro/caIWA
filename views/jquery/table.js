@@ -58,15 +58,15 @@ function verifyForm() {
     var value = document.forms["nbaForm"]["value"].value;
     var team = document.forms["nbaForm"]["team"].value;
     if (player == "") {
-        alert("Player field must be filled out");
+        alert("you must provide player position, name, value and a team!");
         return false;
     }
     else if (value == "") {
-        alert("Valeu field must be filled out");
+        alert("you must provide player position, name, value and a team!");
         return false;
     }
     else if (team == "") {
-        alert("Team must be choosen!");
+        alert("you must provide player position, name, value and a team!");
         return false;
     }
 }
