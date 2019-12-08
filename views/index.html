@@ -10,19 +10,10 @@
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/NBA.css" rel="stylesheet">
-   <script src="js/NBA.js"></script>
-    <script>
-        window.addEventListener("load", function() {
-            document.querySelector("#showMVP").addEventListener("click", function() {
-                mvpDisplay('menuTable', this.checked);
-            });
-        });
-    </script>
 </head>
 
 <body>
   <!-- Navigation -->
-  
    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container"> <a class="navbar-brand" href="#">NBA</a>
       	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">	<span class="navbar-toggler-icon"></span>
@@ -71,19 +62,6 @@
             </form>
           <button id="delete" class="btn btn-block btn-danger">Delete</button>
           <p class="text-muted">To delete an entree, click the required row first</p>
-              <form>
-                    <div class="input-group">
-                    
-                        <input type="text" class="form-control" aria-label="Total" name="txtBillAmt">
-                         <div class="input-group-append">
-                            <div class="input-group-text">
-                                <input type="checkbox" id="showMvp" aria-label="Checkbox for following text input">
-                            </div>
-                        </div>
-                        <input class="btn btn-block btn-secondary" type="button" name="btnCalcBill" value="MVP Stars" id="showMvp">
-                    </div>
-                    
-                </form>
         </div>
     </div>
   </div>
