@@ -2,6 +2,8 @@ html {
   position: relative;
   min-height: 100%;
 }
+/*style of the code*/
+/*(fixed background) W3schools 1999, accessed 05 November 2019, <https://www.w3schools.com/cssref/pr_background-attachment.asp>  */
 body {
     background-image: url("https://wallpaperaccess.com/full/1305370.jpg");
         background-repeat:no-repeat;
