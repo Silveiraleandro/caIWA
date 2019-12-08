@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <--! xml code structure provided by <Mikhail Timofeev> (<16 September – 02 December>) <Web applications/XML, XSL, CSS, JavaScript>Code provider can be found at https://moodle.cct.ie/ .-->
-<NBA>
-  <section position="Shooting Guard">
-    <entree mvp="true">
-      <player>Carmelo Anthonny</player>
-      <value>100.000.00</value>
-      <team>Broklyn Nets</team>
+<NBA> <!--the root element -->
+  <section position="Shooting Guard"> <!--the sections are storing the attributes with their values-->
+    <entree mvp="true"> <!--boolean variable being held in a entree first child-->
+      <player>Carmelo Anthonny</player> <!--variable holding a value-->
+      <value>100.000.00</value> <!--variable holding a value-->
+      <team>Broklyn Nets</team> <!--variable holding a value-->
     </entree>
     <entree>
       <player>LeBron James</player>
